@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="banner">
+
+            <img src= "assets/img/Fundo.jpg " alt = "">
+
+        </div>
+
+    </div>
+
+    <div class="login-body">
+        <div class = "login-box">
+            <div class="container">
+                <div class="image-container">
+                    <img src="assets/img/Imagem_da_Toolzz.PNG" alt="">
+                </div>
+                <div class="create-account-link">
+                    <a href="#">Criar conta</a>
+                </div>
+            </div>
+            
+                <h2 class="title">Boas-vindas!</h2>
+                <h5 class="subtitle">Entre utilizando uma das opções abaixo</h5>
+
+            <div class = "button-container">
+                <button class="logo-button"><img src="assets/img/Logo_TZ.PNG" alt=""></button> 
+                <button class="logo-button"><img src="assets/img/Logo_Facebook.PNG" alt=""></button>
+                <button class="logo-button"><img src="assets/img/Logo_Apple.PNG" alt=""></button>
+                <button class="logo-button"><img src="assets/img/Logo_Twitter.PNG" alt=""></button><br>
+            </div>
+
+            <div class="image-container">
+                <img src="assets/img/ou_image.png" alt="">
+            </div>
+            
+            
+            <div class = "input_box">
+
+                    <form method="GET" action = "">
+             
+                <div class = "input_user ">
+                    <label>Usuário</label> <br>
+                    <input type = "text" name = "nome" id = "usuario"> <br> <br>
+                </div>
+
+                <div class = "input_password ">
+                    <label>Senha</label> <br> 
+                    <input type = "password" name = "senha" id = "senha"> <br><br>
+                
+                </div>
+                    </form>
+                
+            </div>
+
+
+            <script>
+                
+                function logar (){
+
+                    var usuario = document.getElementById ('usuario').value;
+                    var senha = document.getElementById ('senha').value;
+
+                    if (usuario == "admin" && senha == "123"){
+                        alert ('Login realizado com sucesso')
+
+                    } else {
+                        alert('Usuário ou senha incorretos');
+                    }
+                }
+
+
+            </script>
+            
+            <div class = "checkbox">
+                <label><input type="checkbox" name="human"> Manter conectado</label><br> <br>
+            
+            </div>
+            
+            <div>
+                <button class = 'submit' onclick="logar()"> 
+                Entrar 
+                </button> <br> <br>
+
+            </div>
+
+            <div class="image-container_captcha">
+                <img src= "assets/img/hCaptcha.png" alt=""><br><br>
+            </div>
+            
+            <div class = "suport">
+                
+                Esqueceu sua senha? <a href="#">Recuperar senha</a>
+            
+            </div>
+            
+            
+            
+            </div>
+        </div>
+    </section>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+
+.banner img {
+    width: 85%; 
+    height: auto; 
+}
+    
+.login-body{
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 550px;
+    margin-left: 950px;
+    margin-top: -1000px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translate(40%);
+}
+        
+.title{
+          
+    font-family: 'inter';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+        
+.subtitle{
+            
+    font-family: 'inter';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: rgba(88, 88, 88, 1);
+    white-space: nowrap;
+
+}
+        
+
+.input_box{
+
+    font-family: 'inter';
+}
+
+.input_user input[type="text"],
+.input_password input[type="password"] {
+    font-family: 'inter';
+    width: 596px; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input_user input[type="text"]:hover,
+.input_password input[type="password"]:hover {
+    border-color: #007bff; 
+}
+
+
+
+
+.submit{
+
+    font-family: 'inter';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 24px;
+    gap: 12px;
+
+    width: 618px;
+    height: 48px;
+
+    background: #007bff;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+
+    transition: background-color 0.3s; 
+}
+
+.submit:hover {
+    background-color: #00FFFF; 
+}
+
+
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.logo-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 147px;
+    height: 48px;
+    border: 1px ; 
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    transition: box-shadow 0.3s; 
+}
+
+.logo-button:hover {
+    box-shadow: 0 0 10px 2px #007bff; 
+}
+
+
+.create-account-link {
+    font-family: 'inter';
+    position: fixed;
+    top: 70px; 
+    bottom: 10px; 
+    right: -300px; 
+}
+
+.image-user {
+
+    transition: box-shadow 0.3s; 
+}
+
+.image-user img:hover {
+    box-shadow: 0 0 0 3px rgba(41, 233, 233, 0.7); 
+}
+
+.image-password {
+
+    transition: box-shadow 0.3s; 
+}
+    
+.image-password img:hover {
+    box-shadow: 0 0 0 3px rgba(41, 233, 233, 0.7);  
+
+}
+
+
+.suport {
+    font-size: 14px;
+    font-family: 'inter';
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+
+
+.checkbox{
+    font-size: small;
+    font-family: 'inter';
+
+}
